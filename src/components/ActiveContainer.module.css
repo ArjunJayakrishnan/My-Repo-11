@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+/* /active-container */
+
+/* dark */
+.activeContainerDark {
+	background-color: hsl(235, 24%, 19%);
+	height: 6.4rem;
+	width: 100%;
+	border-bottom: 0.1px solid #494c6b;
+	/* flex */
+	display: flex;
+	/* gap: 1.6rem; */
+	align-items: center;
+	justify-content: space-between;
+}
+
+.activeContainerDark p {
+	font-size: 2.4rem;
+	color: hsl(234, 39%, 85%);
+}
+
+.activeContainerDark svg {
+	margin: 0 1.6rem;
+}
+.activeContainerDark svg:last-child {
+	padding: 0.6rem 0.2rem 0.5rem 0.9rem;
+}
+
+.activeContainerDark svg:hover {
+	stroke: hsl(234, 39%, 85%);
+}
+
+/* light */
+
+.activeContainerLight {
+	background-color: hsl(0, 0%, 98%);
+	height: 6.4rem;
+	width: 100%;
+	border-bottom: 0.1px solid hsl(236, 33%, 92%);
+	/* flex */
+	display: flex;
+	/* gap: 1.6rem; */
+	align-items: center;
+	justify-content: space-between;
+}
+
+.activeContainerLight p {
+	font-size: 2.4rem;
+	color: hsl(235, 24%, 19%);
+}
+.activeContainerLight svg {
+	margin: 0 1.6rem;
+	stroke: hsl(234, 39%, 85%);
+}
+
+.activeContainerLight svg:last-child {
+	padding: 0.6rem 0.2rem 0.5rem 0.9rem;
+}
+
+.activeContainerLight svg:hover {
+	stroke: hsl(235, 24%, 19%);
+}
+
+@media (max-width: 575px) {
+	.activeContainerDark svg:last-child {
+		padding: 1rem 0.2rem 0.5rem 0.9rem;
+	}
+	.activeContainerLight svg:last-child {
+		padding: 1rem 0.2rem 0.5rem 0.9rem;
+	}
+}
+@media (max-width: 410px) {
+	.activeContainerDark svg:last-child {
+		padding: 1rem 0.2rem 0.5rem 0.9rem;
+	}
+	.activeContainerLight svg:last-child {
+		padding: 1rem 0.2rem 0.5rem 0.9rem;
+	}
+}
+@media (max-width: 335px) {
+	.activeContainerDark svg {
+		margin: 0 0.4rem;
+	}
+	.activeContainerLight svg {
+		margin: 0 0.4rem;
+	}
+}

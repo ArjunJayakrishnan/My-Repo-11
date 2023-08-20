@@ -1,0 +1,85 @@
+/* status comtainer */
+/* dark */
+.statusDivDark {
+	height: 6.4rem;
+	background-color: hsl(235, 24%, 19%);
+	font-size: 2.4rem;
+	color: #494c6b;
+	border-bottom: 0.1px solid #494c6b;
+	/* margin-top: 2.4rem; */
+	padding: 0 1.6rem;
+	/* flex */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.statusDivDark p:hover {
+	color: hsl(234, 39%, 85%);
+}
+
+.shownSelectDivDark {
+	height: 6.4rem;
+	background-color: hsl(235, 24%, 19%);
+	font-size: 2.4rem;
+	color: #494c6b;
+	border-top: 0.1px solid #494c6b;
+	border-bottom: 0.1px solid #494c6b;
+	/* flex */
+	display: flex;
+	justify-content: space-evenly;
+	gap: 3.2rem;
+	align-items: center;
+}
+
+.shownSelectDivDark p:hover {
+	color: hsl(234, 39%, 85%);
+}
+
+/* light */
+.statusDivLight {
+	height: 6.4rem;
+	background-color: hsl(0, 0%, 98%);
+	font-size: 2.4rem;
+	color: hsl(234, 11%, 52%);
+	/* margin-top: 2.4rem; */
+	border-bottom: 0.1px solid hsl(236, 33%, 92%);
+	padding: 0 1.6rem;
+	/* flex */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.shownSelectDivLight {
+	height: 6.4rem;
+	background-color: hsl(0, 0%, 98%);
+	font-size: 2.4rem;
+	color: hsl(234, 11%, 52%);
+	border-top: 0.1px solid hsl(236, 33%, 92%);
+	border-bottom: 0.1px solid hsl(236, 33%, 92%);
+	/* flex */
+	display: flex;
+	justify-content: space-evenly;
+	gap: 3.2rem;
+	align-items: center;
+}
+
+.shownSelectDivLight p:hover {
+	color: hsl(235, 24%, 19%);
+}
+
+.statusDivLight p:hover {
+	color: hsl(235, 24%, 19%);
+}
+
+/* media querries */
+
+@media (max-width: 575px) {
+	.statusDivDark {
+		margin-top: 2.4rem;
+	}
+	.statusDivLight {
+		margin-top: 2.4rem;
+	}
+}

@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+/* completed container */
+/* dark */
+.completedContainerDark {
+	background-color: hsl(235, 24%, 19%);
+	height: 6.4rem;
+	width: 100%;
+	border-bottom: 0.1px solid #494c6b;
+	padding: 0 3.2rem;
+	display: flex;
+	align-items: center;
+	gap: 1.6rem;
+	/* justify-content: space-between; */
+}
+.completedContainerDark p {
+	font-size: 2.4rem;
+	color: #494c6b;
+	/* color: hsl(234, 39%, 85%); */
+	text-decoration: line-through;
+}
+
+/* light */
+.completedContainerLight {
+	background-color: hsl(0, 0%, 98%);
+	height: 6.4rem;
+	width: 100%;
+	border-bottom: 0.1px solid hsl(236, 33%, 92%);
+	padding: 0 3.2rem;
+	display: flex;
+	align-items: center;
+	gap: 1.6rem;
+	/* justify-content: space-between; */
+}
+.completedContainerLight p {
+	font-size: 2.4rem;
+	color: hsl(235, 24%, 19%);
+	text-decoration: line-through;
+}
