@@ -1,3 +1,7 @@
+### Links
+- Live Site URL: [https://marvelous-praline-30cc2d.netlify.app/]
+- Solution URL: [https://github.com/ArjunJayakrishnan/My-Repo-11/]
+
 ## Table of contents
 
 - [The challenge](#the-challenge)
@@ -22,12 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+dark mode - [https://drive.google.com/file/d/1DFyW3VqL1rW1W1nMYqOuW0wySxb0Wjux/view?usp=sharing]
+light mode - [https://drive.google.com/file/d/1hi9NHnO-mSRYb9u-kdWFh4b2-QhfYn9s/view?usp=sharing]
 
 ### Built with
 
