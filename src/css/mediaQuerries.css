@@ -1,0 +1,57 @@
+@media (max-width: 1300px) {
+	.container {
+		left: 15%;
+		width: 75%;
+	}
+}
+@media (max-width: 950px) {
+	.container {
+		left: 10%;
+		width: 85%;
+	}
+	html {
+		font-size: 8px;
+	}
+}
+@media (max-width: 700px) {
+	html {
+		font-size: 7px;
+	}
+	.container {
+		left: 5%;
+		width: 90%;
+	}
+}
+@media (max-width: 575px) {
+	html {
+		font-size: 6px;
+	}
+	.container {
+		left: 1.5%;
+		width: 95%;
+	}
+	.statusDivDark {
+		margin-top: 2.4rem;
+	}
+	.statusDivLight {
+		margin-top: 2.4rem;
+	}
+	.shownSelectDivDark {
+		width: 100%;
+	}
+	.shownSelectDivLight {
+		width: 100%;
+	}
+}
+
+@media (max-width: 410px) {
+	.container {
+		left: 1%;
+	}
+}
+
+@media (max-width: 335px) {
+	html {
+		font-size: 5px;
+	}
+}
